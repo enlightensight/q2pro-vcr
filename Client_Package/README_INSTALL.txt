@@ -2,16 +2,20 @@ IMPORTANT: HOW TO FIX "MISSING DLL" AND "LARGE SCREEN"
 ======================================================
 
 The error "missing gamex86.dll" happens because the file is in the wrong place.
+Also, you might need other system DLLs found in this package.
+
 Please follow these steps EXACTLY:
 
-STEP 1: INSTALL THE EXE
------------------------
-1. Find `q2pro_update.exe` in this package.
-2. Copy it into your MAIN Quake 2 folder (where `quake2.exe` usually is).
+STEP 1: INSTALL THE EXE & SYSTEM DLLs
+-------------------------------------
+1. Open the `Client_Package` folder.
+2. Select `q2pro_update.exe` AND all the `.dll` files you see next to it
+   (like `zlib1.dll`, `libpng...`, etc.).
+3. Copy ALL of them into your MAIN Quake 2 folder (where `quake2.exe` usually is).
 
-STEP 2: INSTALL THE DLL (CRITICAL)
-----------------------------------
-1. Find the `baseq2` folder in this package.
+STEP 2: INSTALL THE GAME DLL (CRITICAL)
+---------------------------------------
+1. Find the `baseq2` folder in this `Client_Package`.
 2. Open it. You will see `gamex86.dll`.
 3. Copy `gamex86.dll` into your GAME'S `baseq2` folder.
    (The full path should look like: `C:\Quake2\baseq2\gamex86.dll`)
