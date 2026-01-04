@@ -1,0 +1,1101 @@
+make: ./version.sh: No such file or directory
+make: ./version.sh: No such file or directory
+[CC] .q2pro/src/common/bsp.o
+[CC] .q2pro/src/common/cmd.o
+[CC] .q2pro/src/common/cmodel.o
+[CC] .q2pro/src/common/common.o
+In file included from src/common/cmd.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/cmd.c:29:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/common.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/common.c:47:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/bsp.c:22:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/cvar.o
+[CC] .q2pro/src/common/field.o
+[CC] .q2pro/src/common/error.o
+[CC] .q2pro/src/common/fifo.o
+[CC] .q2pro/src/common/files.o
+In file included from src/common/cmodel.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/math.o
+In file included from src/common/files.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/files.c:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/error.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/math.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/field.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/field.c:26:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/cvar.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/cvar.c:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/fifo.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/msg.o
+[CC] .q2pro/src/common/mdfour.o
+[CC] .q2pro/src/common/net/chan.o
+In file included from src/common/msg.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/mdfour.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/net/net.o
+In function 'mdfour_result',
+    inlined from 'Com_BlockChecksum' at src/common/mdfour.c:195:5:
+src/common/mdfour.c:177:7: warning: storing the address of local variable 'md' in 'm' [-Wdangling-pointer=]
+  177 |     m = md;
+      |     ~~^~~~
+src/common/mdfour.c: In function 'Com_BlockChecksum':
+src/common/mdfour.c:191:19: note: 'md' declared here
+  191 |     struct mdfour md;
+      |                   ^~
+src/common/mdfour.c:32:23: note: 'm' declared here
+   32 | static struct mdfour *m;
+      |                       ^
+[CC] .q2pro/src/common/prompt.o
+In file included from src/common/net/chan.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/pmove.o
+In file included from src/common/net/net.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/net/net.c:34:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/common/prompt.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/common/pmove.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/sizebuf.o
+[CC] .q2pro/src/common/utils.o
+In file included from src/common/sizebuf.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/common/zone.o
+In file included from src/common/utils.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/shared/shared.o
+[CC] .q2pro/src/shared/m_flash.o
+[CC] .q2pro/src/client/ascii.o
+In file included from src/common/zone.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/shared/m_flash.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/ascii.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/client/crc.o
+In file included from src/shared/shared.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/shared/shared.c:144:19: warning: 'hexchars' defined but not used [-Wunused-const-variable=]
+  144 | static const char hexchars[] = "0123456789ABCDEF";
+      |                   ^~~~~~~~
+[CC] .q2pro/src/client/console.o
+[CC] .q2pro/src/client/demo.o
+In file included from src/client/crc.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/console.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/demo.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/download.o
+[CC] .q2pro/src/client/effects.o
+[CC] .q2pro/src/client/entities.o
+[CC] .q2pro/src/client/input.o
+In file included from src/client/client.h:21,
+                 from src/client/download.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/entities.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/effects.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/input.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/client/keys.o
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/locs.o
+src/client/effects.c: In function 'CL_InitEffects':
+src/client/effects.c:1881:27: warning: iteration 3 invokes undefined behavior [-Waggressive-loop-optimizations]
+ 1881 |         avelocities[0][i] = (rand() & 255) * 0.01;
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+src/client/effects.c:1880:19: note: within this loop
+ 1880 |     for (i = 0; i < NUMVERTEXNORMALS * 3; i++)
+      |                 ~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/keys.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/locs.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/main.o
+[CC] .q2pro/src/client/newfx.o
+[CC] .q2pro/src/client/parse.o
+In file included from src/client/client.h:21,
+                 from src/client/main.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/precache.o
+In file included from src/client/client.h:21,
+                 from src/client/newfx.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/client/predict.o
+In file included from src/client/client.h:21,
+                 from src/client/parse.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/refresh.o
+[CC] .q2pro/src/client/screen.o
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/predict.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/precache.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/client/predict.c:123:1: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  123 | {
+      | ^
+In file included from src/client/client.h:21,
+                 from src/client/screen.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/view.o
+In file included from src/client/client.h:21,
+                 from src/client/refresh.c:24:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/client/tent.o
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/sound/main.o
+[CC] .q2pro/src/client/sound/mem.o
+In file included from src/client/client.h:21,
+                 from src/client/tent.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/sound/../client.h:21,
+                 from src/client/sound/sound.h:21,
+                 from src/client/sound/main.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/sound/../client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/client.h:21,
+                 from src/client/view.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/sound/../client.h:21,
+                 from src/client/sound/sound.h:21,
+                 from src/client/sound/mem.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/refresh/images.o
+In file included from src/client/client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/sound/../client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/models.o
+[CC] .q2pro/src/server/commands.o
+In file included from src/refresh/images.c:24:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/models.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/server/entities.o
+[CC] .q2pro/src/server/game.o
+In file included from src/server/server.h:20,
+                 from src/server/commands.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:20,
+                 from src/server/entities.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/server/init.o
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+In file included from src/server/server.h:20,
+                 from src/server/game.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+[CC] .q2pro/src/server/save.o
+In file included from src/server/server.h:20,
+                 from src/server/init.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+In file included from src/server/server.h:20,
+                 from src/server/save.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+[CC] .q2pro/src/server/send.o
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/server/main.o
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+[CC] .q2pro/src/server/user.o
+In file included from src/server/server.h:20,
+                 from src/server/send.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/server/server.h:20,
+                 from src/server/main.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:20,
+                 from src/server/user.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+[CC] .q2pro/src/server/world.o
+[CC] .q2pro/src/client/sound/mix.o
+[CC] .q2pro/src/client/ui/demos.o
+[CC] .q2pro/src/client/sound/dma.o
+In file included from src/server/server.h:20,
+                 from src/server/world.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/server/server.h:22:
+./inc/shared/game.h:134:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  134 |     trace_t (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end, edict_t *passent, int contentmask);
+      |     ^~~~~~~
+In file included from src/server/server.h:40:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+src/server/server.h:760:28: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  760 |                            edict_t *passedict, int contentmask);
+      |                            ^~~~~~~
+src/server/world.c:548:1: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  548 | {
+      | ^
+In file included from src/client/sound/../client.h:21,
+                 from src/client/sound/sound.h:21,
+                 from src/client/sound/mix.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/demos.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/sound/../client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/sound/../client.h:21,
+                 from src/client/sound/sound.h:21,
+                 from src/client/sound/dma.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/sound/../client.h:45:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/ui/menu.o
+[CC] .q2pro/src/client/ui/playerconfig.o
+[CC] .q2pro/src/client/ui/script.o
+[CC] .q2pro/src/client/ui/playermodels.o
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/menu.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/playerconfig.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/playermodels.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/client/ui/servers.o
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/script.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/refresh/gl/draw.o
+[CC] .q2pro/src/client/ui/ui.o
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/gl/images.o
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/servers.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/draw.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/images.c:20:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/refresh/gl/mesh.o
+[CC] .q2pro/src/refresh/gl/main.o
+In file included from src/client/ui/ui.h:19,
+                 from src/client/ui/ui.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/client/ui/ui.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/gl/models.o
+[CC] .q2pro/src/refresh/gl/sky.o
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/main.c:24:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/mesh.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/sky.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/models.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/gl/state.o
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/state.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/gl/surf.o
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/surf.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+[CC] .q2pro/src/refresh/gl/tess.o
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/refresh/gl/world.o
+[CC] .q2pro/src/refresh/gl/qgl.o
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/tess.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/gl.h:19,
+                 from src/refresh/gl/world.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/refresh/gl/gl.h:27:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/refresh/gl/qgl.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+src/refresh/gl/main.c: In function 'R_RenderFrame':
+src/refresh/gl/main.c:622:24: warning: unused variable 'cl_time' [-Wunused-variable]
+  622 |         extern cvar_t *cl_time; // Hack if needed, but fd.time should work
+      |                        ^~~~~~~
+[CC] .q2pro/src/refresh/gl/vcr_effect.o
+[CC] .q2pro/src/windows/client.o
+[CC] .q2pro/src/windows/wave.o
+[CC] .q2pro/src/windows/glimp.o
+[CC] .q2pro/src/windows/wgl.o
+In file included from src/windows/client.h:23,
+                 from src/windows/client.c:23:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/windows/client.h:23,
+                 from src/windows/wave.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+In file included from src/windows/client.h:23,
+                 from src/windows/glimp.c:32:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/windows/hunk.o
+In file included from src/windows/client.h:23,
+                 from src/windows/wgl.c:18:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/windows/system.o
+[RC] .q2pro/src/windows/res/q2pro.o
+In file included from src/windows/hunk.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:23,
+                 from src/windows/system.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+In file included from src/windows/client.h:28:
+./inc/client/client.h:26:9: warning: 'CHAR_WIDTH' redefined
+   26 | #define CHAR_WIDTH  8
+      |         ^~~~~~~~~~
+In file included from C:/msys64/mingw64/include/stdlib.h:11,
+                 from ./inc/shared/shared.h:35:
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:165:10: note: this is the location of the previous definition
+  165 | # define CHAR_WIDTH __SCHAR_WIDTH__
+      |          ^~~~~~~~~~
+[CC] .q2pro/src/common/x86/fpu.o
+src/windows/res/q2pro.rc:57: fatal error: when writing output to : Broken pipe
+compilation terminated.
+C:\msys64\mingw64\bin\windres.exe: src/windows/res/q2pro.rc:24: syntax error
+C:\msys64\mingw64\bin\windres.exe: preprocessing failed.
+make: *** [Makefile:671: .q2pro/src/windows/res/q2pro.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from src/common/x86/fpu.c:19:
+./inc/shared/shared.h:852:5: warning: 'callee_pop_aggregate_return' attribute only available for 32-bit [-Wattributes]
+  852 |     trace_t     (* q_gameabi trace)(vec3_t start, vec3_t mins, vec3_t maxs, vec3_t end);
+      |     ^~~~~~~
+src/refresh/gl/vcr_effect.c: In function 'VCR_DrawEffect':
+src/refresh/gl/vcr_effect.c:869:11: warning: variable 'elapsed' set but not used [-Wunused-but-set-variable]
+  869 |     float elapsed, time_since_distort;
+      |           ^~~~~~~
+src/windows/system.c: In function 'Sys_Init':
+src/windows/system.c:665:13: warning: unused variable 'var' [-Wunused-variable]
+  665 |     cvar_t *var = NULL;
+      |             ^~~

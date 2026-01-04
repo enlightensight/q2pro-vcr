@@ -1,0 +1,16 @@
+.config*
+.q2pro/
+.q2proded/
+.baseq2/
+q2pro
+q2pro.exe
+q2pro_update.exe
+q2proded
+q2proded.exe
+game*.so
+game*.dll
+*.dll
+*.log
+temp_build.sh
+build_attempt.log
+build_cross.log
