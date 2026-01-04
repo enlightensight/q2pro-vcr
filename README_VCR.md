@@ -35,7 +35,7 @@ The effect runs on a **50-second repeating cycle** with the following events:
 
 | File | Purpose |
 |:-----|:--------|
-| **`q2pro.exe`** / **`q2pro_update.exe`** | The game client with VCR effect integrated |
+ **`q2pro_update.exe`** | The game client with VCR effect integrated | to check open it/ type map demo1/ after game open press " ` " key to open console commands.
 | **`gamex86.dll`** | Game logic module (x86 build) |
 | `zlib1.dll`, `libpng16-16.dll`, etc. | Runtime dependencies |
 
