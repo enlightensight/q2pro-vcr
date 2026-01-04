@@ -1,39 +1,38 @@
-HOW TO INSTALL & FIX "LARGE SCREEN" ISSUE
-=========================================
+IMPORTANT: HOW TO FIX "MISSING DLL" AND "LARGE SCREEN"
+======================================================
 
-The game failed to run because `gamex86.dll` was likely in the wrong place.
-Quake 2 requires the DLL to be INSIDE the `baseq2` folder.
+The error "missing gamex86.dll" happens because the file is in the wrong place.
+Please follow these steps EXACTLY:
 
-INSTALLATION STEPS
-------------------
-1. You will see a `baseq2` folder in this package.
-2. Open your existing Quake 2 game folder.
-3. Open the `baseq2` folder inside your game.
-4. COPY the `gamex86.dll` from this package into your game's `baseq2` folder.
-   (Replace the existing file if asked).
+STEP 1: INSTALL THE EXE
+-----------------------
+1. Find `q2pro_update.exe` in this package.
+2. Copy it into your MAIN Quake 2 folder (where `quake2.exe` usually is).
 
-5. Go back to your main Quake 2 folder (where quake2.exe is).
-6. COPY `q2pro_update.exe` here.
-
-7. Run `q2pro_update.exe`.
-
-FIXING "ALL LARGE" / SCREEN ISSUES
+STEP 2: INSTALL THE DLL (CRITICAL)
 ----------------------------------
-If the menu is too large or the resolution is wrong:
+1. Find the `baseq2` folder in this package.
+2. Open it. You will see `gamex86.dll`.
+3. Copy `gamex86.dll` into your GAME'S `baseq2` folder.
+   (The full path should look like: `C:\Quake2\baseq2\gamex86.dll`)
 
-1. Open the console by pressing the tilde key (`~`) (below Esc).
-2. Type these commands one by one and press Enter:
+   NOTE: If it asks to replace a file, say YES.
 
-   vid_fullscreen 0
-   r_mode 4
-   vid_restart
+STEP 3: RUN THE GAME
+--------------------
+Run `q2pro_update.exe` (NOT quake2.exe).
 
-   (This switches to Windowed Mode, 800x600 resolution)
+STEP 4: FIX SCREEN / RESOLUTION
+-------------------------------
+If the screen is zoomed in or too large:
 
-3. If you want 1920x1080 fullscreen:
+1. Press the `~` key (top left, below Esc) to open the console.
+2. Type exactly this and press ENTER:
 
-   r_mode -1
-   r_customwidth 1920
-   r_customheight 1080
-   vid_fullscreen 1
-   vid_restart
+   vid_fullscreen 0; r_mode 4; vid_restart
+
+   (This resets it to a standard 800x600 window).
+
+3. To set it to 1920x1080 Fullscreen:
+
+   r_mode -1; r_customwidth 1920; r_customheight 1080; vid_fullscreen 1; vid_restart
