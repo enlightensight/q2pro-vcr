@@ -20,10 +20,11 @@ The effect runs on a **50-second repeating cycle** with the following events:
 | Time | Event |
 |:-----|:------|
 | **Constant** | 8% Black & White desaturation, 20 white noise dots |
-| **10s - 15s** | 2 tracking lines scroll down the screen (~5 seconds) |
+| **10s - 15s** | 1 tracking lines scroll down the screen (~5 seconds) |
 | **20s - 22s** | Screen shake effect (2 seconds) |
 | **30s - 32s** | Increased noise dots (+100 dots for 2 seconds) |
 | **40s - 42s** | 50% Black & White desaturation (2 seconds) |
+|** FEC to REC** | fixed typo  |
 
 ### Timestamp Overlay
 - Displays **current system time** (month, day, hour, minute, second)
