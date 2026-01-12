@@ -556,18 +556,26 @@ static void vcr_draw_rec_indicator(float time)
     vcr_draw_rect(x + 15, y, 30, 12, 1.0f, 0.0f, 0.0f, alpha * 0.8f);
     vcr_draw_rect(x + 17, y + 2, 26, 8, 0.0f, 0.0f, 0.0f, 1.0f);
     
-    /* Simple "REC" letters */
+    /* Simple "REC" letters - properly formed */
     glColor4f(1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 19, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* R */
-    vcr_draw_rect(x + 19, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 19, y + 5, 4, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 26, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* E */
-    vcr_draw_rect(x + 26, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 26, y + 5, 4, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 26, y + 8, 5, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 33, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* C */
-    vcr_draw_rect(x + 33, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha);
-    vcr_draw_rect(x + 33, y + 8, 5, 1, 1.0f, 1.0f, 1.0f, alpha);
+    
+    /* R letter */
+    vcr_draw_rect(x + 19, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* Left vertical */
+    vcr_draw_rect(x + 19, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Top horizontal */
+    vcr_draw_rect(x + 23, y + 3, 1, 3, 1.0f, 1.0f, 1.0f, alpha); /* Right top vertical */
+    vcr_draw_rect(x + 19, y + 5, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Middle horizontal */
+    vcr_draw_rect(x + 22, y + 6, 2, 3, 1.0f, 1.0f, 1.0f, alpha); /* Diagonal leg (right bottom) */
+    
+    /* E letter */
+    vcr_draw_rect(x + 26, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* Left vertical */
+    vcr_draw_rect(x + 26, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Top horizontal */
+    vcr_draw_rect(x + 26, y + 5, 4, 1, 1.0f, 1.0f, 1.0f, alpha); /* Middle horizontal */
+    vcr_draw_rect(x + 26, y + 8, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Bottom horizontal */
+    
+    /* C letter */
+    vcr_draw_rect(x + 33, y + 3, 2, 6, 1.0f, 1.0f, 1.0f, alpha); /* Left vertical */
+    vcr_draw_rect(x + 33, y + 3, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Top horizontal */
+    vcr_draw_rect(x + 33, y + 8, 5, 1, 1.0f, 1.0f, 1.0f, alpha); /* Bottom horizontal */
 }
 
 /*
